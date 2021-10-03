@@ -1,0 +1,193 @@
+body{
+	background-color: #2E4053  ;
+
+}
+
+.menu-bar{
+
+	 background-color:  #12151f;
+	 text-align: right;
+
+
+	 	font-family:alkatip basma tom;
+	 color: white;
+	 position: relative;
+	 
+
+
+}
+.menu-bar ul{
+		
+
+	display: inline-flex;
+	list-style: none;
+
+}
+	.menu-bar ul li{
+
+	
+
+		margin: 5px;
+		margin-right: 60px;
+		padding:0;
+	}
+	.menu-bar ul li :hover{
+		background-color:white;
+		color: black;
+		text-color: black;
+
+		
+	}
+	.menu-bar i{
+		font-size: 20px;
+	}
+
+	.social{
+		position: relative;
+		margin-right:90%;
+		list-style: none;
+		display: inline-flex;
+		top: -30px;
+		display: flex;
+		justify-content: space-evenly;
+		
+		
+			
+
+
+	}
+
+  .Menu{
+    width: 100%;
+    height: 80px;
+    background-color: #12151f ;
+    margin-top: 20px;
+
+  }
+
+  .center{
+  	display: flex;
+  }
+  .instgram,.facebook,.twitter{
+  	color: white;
+  	font-size: 10px;
+  }
+ 
+
+ .kamila{
+ 	width: 59%;
+ 	height: 450px;
+ 	background-color: #12151f ;
+ 	margin-top: 20px;
+
+ }
+
+  .abdulla{
+ 	border: 1px ridge;
+ 	margin-right: 20px;
+ 	background-color:;
+
+ 	width: 50%;
+ 	height: 40%px;
+ 
+ 	margin-top: 20px;
+
+ }
+ 	.Breadcrumb{
+
+
+ 		margin-top: 40px;
+ 		position: relative;
+ 		margin-right: 50px;
+
+ 		text-align: left;
+ 		
+ 	}
+ 		.Breadcrumb ul{ 
+ 		
+ 		list-style: none;
+ 		display: inline-block;
+ 		
+ 	}
+ 		.Breadcrumb ul li{ 
+ 		
+ 		display: inline;
+ 		
+ 	}
+ 		.Breadcrumb ul li a{ 
+ 		
+ 				display: block;
+ 	 			height: 50px;
+ 	 			width: 52px;
+
+ 	 			float: left;
+ 	 			background-color: #f3f5fa;
+ 	 			
+ 	 			padding: 30px 20px 0px 60px;
+ 	 			position: relative;
+ 	 			margin: 0 10px 0 0;
+ 	 			font-size: 18px;
+ 	 			text-decoration: none;
+ 	 			color: #8093a7;
+
+
+ 		
+ 	}
+ 	.Breadcrumb ul li a:after {
+ 		content: "";
+ 		border-top: 40px solid transparent;
+ 			border-bottom: 40px solid transparent;
+ 				border-left: 40px solid #f3f5fa;
+ 				position: absolute;
+ 				right: -40px;
+ 				top: 0;
+ 				z-index: 1;
+ 	} 
+
+ 		.Breadcrumb ul li a:before{
+ 		content: "";
+ 		border-top: 40px solid transparent;
+ 			border-bottom: 40px solid transparent;
+ 				border-left: 40px solid #05f4b7;
+ 				position: absolute;
+ 				left: 0px;
+ 				top: 0;
+ 	}
+ 	.Breadcrumb ul li:first-child a{
+ 		border-top-left-radius: 10px;
+ 			border-bottom-left-radius: 10px;
+ 	
+}
+
+ 	.Breadcrumb ul li:first-child a::before{
+
+	display: none;
+ 	}
+
+ 	.Breadcrumb ul li:last-child a{
+ 		padding-right:40px;
+ 			border-top-left-radius: 10px;
+ 			border-bottom-left-radius: 10px;
+
+
+
+ 	}
+
+ 	 	.Breadcrumb ul li :hover{
+ 	 		background-color: white;
+ 		
+
+
+
+ 	}
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
