@@ -85,37 +85,34 @@
 	
 /*men yazgan ye*/
 .yer{
-	background-color:blue;
+	
 	width: 100%;
 	
 }
 .orun{
 	display:flex;
 	width: 99%;
-	height: 650px;
+	height: 700px;
 
 	margin: auto;
 	padding: 2em;
-	background-color:yellow;
-	
+
 }
 .sidebar{
 	width: 20%;
 	height: 100%;
-	border-radiuse:10px;
-padding-right: 1em;
-background-color:black;
+padding-right: 0.50rem;
+
 }
 .ders{
 	width: 50%;
 	height: 100%;
-	background-color:green;
-	
+
 }
 .news{
 	width: 30%;
 	height: 100%;
-	background-color:grey;
+	
 }
 	
 	.btn-thumbs-up,.btn-thumbs-down,.btn-comments,.btn-chevron-down{
@@ -125,6 +122,7 @@ background-color:black;
 	
 	.col-lg-6.kkk,.col-lg-6.zzz {
 		max-width: 100%;
+		height: 100%;
 	
 	}
 	.navbar-sidebar{
@@ -132,9 +130,19 @@ background-color:black;
 	}
 	.col-lg-6.zzz{
 		width: 100%;
+		height: 100%;
+	
 	}
-
-
+	.mm{
+		height: 100%;
+	}
+.au-card{
+	height: 100%;
+}
+.navbar-sidebar{
+	height: 100%;
+}
+.au-task-list{}
 	
 	
 	
@@ -146,26 +154,13 @@ background-color:black;
 		<div class="orun">
 <!--saidebar baxlandi-->
 			<div class="sidebar">
-			<div class="menu-sidebar__content js-scrollbar1">
+			<div class="mm">
 					<nav class="navbar-sidebar">
 						<ul class="list-unstyled navbar__list">
 							<li class="has-sub">
 								<a class="js-arrow" href="#">
 									<i class="fas fa-tachometer-alt"></i>Dashboard</a>
-								<ul class="list-unstyled navbar__sub-list js-sub-list">
-									<li>
-										<a href="index.php">Dashboard 1</a>
-									</li>
-									<li>
-										<a href="index2.php">Dashboard 2</a>
-									</li>
-									<li>
-										<a href="index3.php">Dashboard 3</a>
-									</li>
-									<li>
-										<a href="index4.php">Dashboard 4</a>
-									</li>
-								</ul>
+								
 							</li>
 							<li>
 								<a href="user.php">
@@ -191,56 +186,12 @@ background-color:black;
 							<li class="has-sub">
 								<a class="js-arrow" href="#">
 									<i class="fas fa-copy"></i>Pages</a>
-								<ul class="list-unstyled navbar__sub-list js-sub-list">
-									<li>
-										<a href="login.php">Login</a>
-									</li>
-									<li>
-										<a href="register.php">Register</a>
-									</li>
-									<li>
-										<a href="forget-pass.php">Forget Password</a>
-									</li>
-								</ul>
+								
 							</li>
 							<li class="active has-sub">
 								<a class="js-arrow" href="#">
 									<i class="fas fa-desktop"></i>UI Elements</a>
-								<ul class="list-unstyled navbar__sub-list js-sub-list">
-									<li>
-										<a href="button.php">Button</a>
-									</li>
-									<li>
-										<a href="badge.php">Badges</a>
-									</li>
-									<li>
-										<a href="tab.php">Tabs</a>
-									</li>
-									<li>
-										<a href="card.php">Cards</a>
-									</li>
-									<li>
-										<a href="alert.php">Alerts</a>
-									</li>
-									<li>
-										<a href="progress-bar.php">Progress Bars</a>
-									</li>
-									<li>
-										<a href="modal.php">Modals</a>
-									</li>
-									<li>
-										<a href="switch.php">Switchs</a>
-									</li>
-									<li>
-										<a href="grid.php">Grids</a>
-									</li>
-									<li>
-										<a href="fontawesome.php">Fontawesome Icon</a>
-									</li>
-									<li>
-										<a href="typo.php">Typography</a>
-									</li>
-								</ul>
+								
 							</li>
 						</ul>
 					</nav>
@@ -295,7 +246,7 @@ background-color:black;
 							<div class="au-task__title">
 								<p>bugunki yegi hewerler</p>
 							</div>
-							<div class="au-task-list js-scrollbar3">
+							
 								<div class="au-task__item au-task__item--danger">
 									<div class="au-task__item-inner">
 										<h5 class="task">
@@ -364,7 +315,7 @@ background-color:black;
 								</div>
 							   
 							  
-							</div>
+							
 							<div class="au-task__footer">
 								<button class="au-btn au-btn-load js-load-btn">load more</button>
 							</div>
